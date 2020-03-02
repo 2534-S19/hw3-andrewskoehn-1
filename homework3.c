@@ -1,3 +1,10 @@
+/*
+ * homework3.c
+ *
+ *  Created on: 3/1/2020
+ *      Author: Andrew Koehn
+ */
+
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
 #include "homework3.h"
 #include "myGPIO.h"
@@ -190,3 +197,6 @@ bool fsmBoosterpackButtonS1(unsigned int buttonhistory)
 
     return pressed;
 }
+
+//END CODE
+//FINAL

@@ -30,6 +30,7 @@ bool timer0Expired(void)
     unsigned int currentSnap;
     bool returnValue;
 
+    //get current timer value and compare to previous to determine if timer restarted
     currentSnap = Timer32_getValue(TIMER0);
     returnValue = (currentSnap > previousSnap);
     previousSnap = currentSnap;
@@ -45,8 +46,12 @@ bool timer1Expired(void)
     unsigned int currentSnap;
     bool returnValue;
 
+    //get current timer value and compare to previous to determine if timer restarted
     currentSnap = Timer32_getValue(TIMER1);
     returnValue = (currentSnap > previousSnap);
     previousSnap = currentSnap;
     return returnValue;
 }
+
+//END CODE
+//FINAL
