@@ -2,7 +2,7 @@
  * GPIO.c
  *
  *  Created on: 3/1/2020
- *  Author: Andrew Koehn
+ *      Author: Andrew Koehn
  */
 
 // For the code you place here, you may use your code that uses register references.
