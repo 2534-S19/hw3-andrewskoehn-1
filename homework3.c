@@ -175,7 +175,7 @@ void changeBoosterpackLED(unsigned int count)
 
 // TODO: Create a button state machine.
 // The button state machine should return true or false to indicate a completed, debounced button press.
-bool fsmBoosterpackButtonS1(unsigned int buttonhistory)
+bool fsmBoosterpackButtonS1(unsigned char buttonhistory)
 {
     static buttonState S1_State = UP;
     bool pressed = false;
